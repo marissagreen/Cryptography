@@ -1,18 +1,5 @@
-#  File: BST_Cipher.py
-
-#  Description: Using a BST with a specific key, encrypt and decrypt passages. 
-
 #  Student Name: Marissa Green
 
-#  Student UT EID: mdg3554
-
-#  Course Name: CS 313E
-
-#  Unique Number: 50725
-
-#  Date Created: 4/21/19
-
-#  Date Last Modified: 4/22/19
 class Node (object):
   def __init__(self, data = None):
     self.data = data
