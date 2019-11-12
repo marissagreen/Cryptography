@@ -1,27 +1,8 @@
-#  File: Cipher.py
-
-#  Description: A program that takes N number of original messages and encrypts them anf takes N number of decrypted messages and decrypts them.
-
 #  Student Name: Marissa Green
-
-#  Student UT EID: mdg3554
-
-#  Partner Name: Sara Bezdany
-
-#  Partner UT EID: shb776
-
-#  Course Name: CS 313E
-
-#  Unique Number: 50725
-
-#  Date Created: 2/3/19
-
-#  Date Last Modified: 2/8/19
 
 import math
 
 DEBUG = False
-
 
 # takes a string and returns a K x K table padded with *
 def construct_encrypt_table( strng ):
